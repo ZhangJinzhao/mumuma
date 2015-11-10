@@ -1,0 +1,36 @@
+//
+//  MusicPlayer.pch
+//  MusicPlayer
+//
+//  Created by lanou3g on 15/11/4.
+//  Copyright © 2015年 蓝欧科技. All rights reserved.
+//
+
+#ifndef MusicPlayer_pch
+#define MusicPlayer_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "URLS.h"
+#import "MusicModel.h"
+#import "DataManager.h"
+#import "UIImageView+WebCache.h"
+#import "PlayerManager.h"
+#import "LyricManager.h"
+#endif /* MusicPlayer_pch */
+
+/* 1.iOS -- 其他,pch在其他选项中创建
+   2.创建之后,需要在Build Settings中 搜索"prefix header",之后在prefix header下面的Debug后面输入pch文件的相对路径即可
+   3.pch文件的功能:
+   当设置完以上步骤之后,在pch文件中导入头文件,即可在整个项目中使用.
+ 
+   网络设置
+   NSAppTransportSecurity  Dictionary
+   NSAllowsArbitraryLoads  Boolean    YES
+
+
+
+
+
+  */
